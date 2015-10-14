@@ -47,8 +47,7 @@ module.exports = function (grunt) {
             all: 'test/index.html',
             options: {
                 timeout: 80000,
-                console: true,
-                '--ignore-ssl-errors': true
+                console: true
             }
         },
         bump: {
